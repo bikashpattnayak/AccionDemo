@@ -73,9 +73,10 @@ public class App {
 	 * @param driver
 	 *            Background: Given User is on login page
 	 * 
-	 *            Scenario User is able to update Business Card When User
-	 *            navigates to Business Card Then it should be able to update
-	 *            salutation
+	 *            Scenario User is able to update Business Card 
+	 *            When User navigates to Business Card option
+	 *            Then it should be able to update salutation
+	 *            
 	 * 
 	 */
 	public static void updateBusinessCard(AndroidDriver<AndroidElement> driver) {
@@ -100,10 +101,11 @@ public class App {
 	 * @param driver
 	 *            Background: Given User is on login page
 	 * 
-	 *            Scenario User is able to add/update/delete Webinars When User
-	 *            navigates to Webinars Then it should be able to delete
-	 *            Webinars And it should be able to add new Webinars And it
-	 *            should be able to update existing Webinars
+	 *            Scenario User is able to add/update/delete Webinars 
+	 *            When User navigates to Webinars 
+	 *            Then it should be able to delete Webinars 
+	 *            And it should be able to add new Webinars 
+	 *            And it should be able to update existing Webinars
 	 * 
 	 */
 	public static void addDeleteWebinar(AndroidDriver<AndroidElement> driver) {
